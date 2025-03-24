@@ -11,7 +11,9 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root')
+
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <Home/>
   </React.StrictMode>,
